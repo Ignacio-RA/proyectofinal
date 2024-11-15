@@ -1,0 +1,130 @@
+body{
+    background-color: #F5FFFA;
+    background-image: url("resourses/Ramen.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    display: grid;
+    place-items: center;
+}
+
+.divPrincipal{
+    width: 70vw;
+    height: 972px;
+    display: grid;
+    place-items: center;
+}
+
+#imgLogo{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: -110px;
+}
+
+#menu{
+    font-size: 80px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    position: relative;
+    top: -185px;
+    left: 110px;
+}
+
+#boton{
+    background-color: red;
+    border-radius: 50px;
+    width: 200px;
+    height: 100px;
+    display: grid;
+    place-items: center;
+    font-size: xx-large;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    top: -100px;
+    text-decoration: none;
+    color: white;
+}
+
+.informacion{
+    width: 90vw;
+    height: 700px;
+}
+
+.contacto{
+    width: 49%;
+    height: 100%;
+    display: block;
+    float: inline-start;
+}
+
+#divHorario{
+    display: inline;
+    align-content: center; 
+}
+
+#horario{
+    font-size: 80px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    position: relative;
+    left: 33%;
+}
+
+#divDias{
+    position: relative;
+    top: 40px;
+    left: 33%;
+}
+
+#dias{
+    font-size: 30px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+#telefono{
+    position: relative;
+    top: 70px;
+    left: 30%;
+    font-size: 80px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+#divtelefono{
+    position: relative;
+    top: 70px;
+    left: 30%;
+}
+
+#mapa{
+    display: grid;
+    place-items: center;
+}
+
+#tema{
+    font-size: 80px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+#eslogan{
+    font-size: 40px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
